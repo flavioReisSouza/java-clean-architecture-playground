@@ -1,6 +1,15 @@
 # 💻 Java Clean Architecture Playground
 
+![Java](https://img.shields.io/badge/Java-25-orange)
+![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
+
 > Hands-on Java project exploring Clean Code, SOLID principles, Object Calisthenics, Design Patterns (Strategy & Factory), Data Structures and Clean Architecture using modern Java (Java 25).
+
+---
+
+## 🎓 Projeto desenvolvido para
+
+Desafio de Projeto da DIO utilizando o **NotebookLM** como ferramenta de aprendizagem ativa, engenharia de prompts e construção de conhecimento técnico.
 
 ---
 
@@ -10,30 +19,37 @@ Este repositório foi desenvolvido com foco em aprendizagem ativa utilizando Int
 
 ### 🎯 Objetivos de estudo
 
-- Escrever código limpo e legível  
-- Aplicar princípios SOLID  
-- Utilizar Object Calisthenics na prática  
-- Implementar Design Patterns  
-- Trabalhar com estruturas de dados  
-- Estruturar aplicações com Clean Architecture  
-- Utilizar recursos modernos do Java (Java 25)  
+* Escrever código limpo e legível
+* Aplicar princípios SOLID
+* Utilizar Object Calisthenics na prática
+* Implementar Design Patterns
+* Trabalhar com Estruturas de Dados
+* Estruturar aplicações com Clean Architecture
+* Utilizar recursos modernos do Java (Java 25)
 
 ---
 
 ## 📚 Curadoria de Fontes
 
-- 📘 *Clean Code* — Robert C. Martin  
-- 📘 *Effective Java* — Joshua Bloch  
-- 🌐 Refactoring Guru — https://refactoring.guru/
-- 🌐 Oracle Java Documentation — https://docs.oracle.com/en/java/
-- 📄 Documentação oficial do Java (Oracle)  
-- 📄 Materiais e anotações da DIO  
+### Livros
+
+* 📘 *Clean Code* — Robert C. Martin
+* 📘 *Clean Architecture* — Robert C. Martin
+* 📘 *Effective Java* — Joshua Bloch
+
+### Sites e Documentação
+
+* 🌐 Refactoring Guru — https://refactoring.guru/
+* 🌐 Oracle Java Documentation — https://docs.oracle.com/en/java/
+* 📄 Materiais e anotações da DIO
 
 ---
 
 ## 🧠 Engenharia de Prompts e Aprendizados ("Cicatrizes")
 
 Durante os estudos utilizando o NotebookLM, foram realizados diversos experimentos para entender como diferentes formas de formular perguntas influenciam a qualidade das respostas geradas pela IA.
+
+---
 
 ### Caso 1 — Comparando Clean Code, SOLID e Object Calisthenics
 
@@ -75,11 +91,11 @@ Quais problemas de manutenção podem ocorrer quando os princípios SOLID não s
 
 A IA apresentou problemas comuns encontrados em sistemas legados:
 
-* Classes com múltiplas responsabilidades.
-* Acoplamento excessivo.
-* Dificuldade para testes unitários.
-* Necessidade de modificar código existente para adicionar novas funcionalidades.
-* Propagação de bugs em diferentes módulos.
+* Classes com múltiplas responsabilidades
+* Acoplamento excessivo
+* Dificuldade para testes unitários
+* Necessidade de modificar código existente para adicionar novas funcionalidades
+* Propagação de bugs em diferentes módulos
 
 #### Aprendizado
 
@@ -135,7 +151,7 @@ Como o padrão Strategy ajuda a reduzir estruturas condicionais complexas?
 
 A IA demonstrou como substituir cadeias de `if/else` e `switch/case` por polimorfismo.
 
-Também relacionou o padrão Strategy com o princípio Open/Closed (OCP).
+Também relacionou o padrão Strategy com o princípio Open/Closed Principle (OCP).
 
 #### Aprendizado
 
@@ -189,8 +205,9 @@ Percebi que Object Calisthenics pode ser utilizado como um exercício para desen
 
 ### 🎯 Conclusão
 
-A principal lição aprendida durante o uso do NotebookLM foi que a qualidade das respostas está diretamente relacionada à qualidade dos prompts utilizados. Perguntas mais específicas, contextualizadas e orientadas para exemplos práticos produziram respostas significativamente mais úteis para o aprendizado e aplicação dos conceitos em projetos Java.
+A principal lição aprendida durante o uso do NotebookLM foi que a qualidade das respostas está diretamente relacionada à qualidade dos prompts utilizados.
 
+Perguntas mais específicas, contextualizadas e orientadas para exemplos práticos produziram respostas significativamente mais úteis para o aprendizado e aplicação dos conceitos em projetos Java.
 
 ---
 
@@ -198,13 +215,13 @@ A principal lição aprendida durante o uso do NotebookLM foi que a qualidade da
 
 ### 🧹 Clean Code
 
-Boas práticas:
+#### Boas práticas
 
-- Nomes claros e descritivos  
-- Métodos pequenos  
-- Baixo acoplamento  
-- Alta coesão  
-- Evitar comentários desnecessários  
+* Nomes claros e descritivos
+* Métodos pequenos
+* Baixo acoplamento
+* Alta coesão
+* Evitar comentários desnecessários
 
 ```java
 // ❌ Ruim
@@ -218,11 +235,11 @@ int diasTrabalhados;
 
 ### 🧱 SOLID
 
-- **S** — Single Responsibility Principle  
-- **O** — Open/Closed Principle  
-- **L** — Liskov Substitution Principle  
-- **I** — Interface Segregation Principle  
-- **D** — Dependency Inversion Principle  
+* **S** — Single Responsibility Principle
+* **O** — Open/Closed Principle
+* **L** — Liskov Substitution Principle
+* **I** — Interface Segregation Principle
+* **D** — Dependency Inversion Principle
 
 ---
 
@@ -230,18 +247,16 @@ int diasTrabalhados;
 
 Conjunto de regras para incentivar código mais limpo e orientado a objetos.
 
-#### 📌 Principais regras
+#### Principais regras
 
-- Um nível de indentação por método  
-- Evitar uso de `else`  
-- Encapsular coleções  
-- Classes pequenas  
-- Nomes descritivos  
-- Evitar getters/setters desnecessários  
+* Um nível de indentação por método
+* Evitar uso de `else`
+* Encapsular coleções
+* Classes pequenas
+* Nomes descritivos
+* Evitar getters e setters desnecessários
 
-#### 💡 Exemplo prático
-
-❌ Código com alta complexidade:
+#### Exemplo
 
 ```java
 if (usuario != null) {
@@ -251,7 +266,7 @@ if (usuario != null) {
 }
 ```
 
-✅ Código mais limpo:
+Refatoração:
 
 ```java
 validarUsuario(usuario);
@@ -262,7 +277,7 @@ processar(usuario);
 
 ### 🧩 Design Patterns
 
-#### 🔹 Strategy
+#### Strategy
 
 Permite trocar comportamentos dinamicamente.
 
@@ -272,17 +287,19 @@ interface DescontoStrategy {
 }
 ```
 
----
-
-#### 🔹 Factory
+#### Factory
 
 Centraliza a criação de objetos.
 
 ```java
 class NotificacaoFactory {
+
     public static Notificacao criar(String tipo) {
+
         if (tipo.equals("email")) return new Email();
+
         if (tipo.equals("sms")) return new SMS();
+
         throw new IllegalArgumentException();
     }
 }
@@ -292,57 +309,84 @@ class NotificacaoFactory {
 
 ### 📊 Estruturas de Dados
 
-- Array  
-- List  
-- Stack  
-- Queue  
-- Map  
+* Array
+* List
+* Stack
+* Queue
+* Map
 
-📌 Saber quando usar é mais importante que decorar  
+📌 Saber quando utilizar cada estrutura é mais importante do que memorizar sua implementação.
 
 ---
 
 ### 🏗️ Clean Architecture
 
-Divisão em camadas:
+Camadas principais:
 
-- Domain  
-- Use Cases  
-- Adapters  
-- Infrastructure  
+* Domain
+* Use Cases
+* Adapters
+* Infrastructure
 
-📌 Benefícios:
+#### Benefícios
 
-- Baixo acoplamento  
-- Alta testabilidade  
-- Manutenção facilitada  
+* Baixo acoplamento
+* Alta testabilidade
+* Facilidade de manutenção
+* Independência de frameworks
 
 ---
 
 ### ☕ Java 25
 
-- Melhorias de performance  
-- Pattern Matching  
-- Virtual Threads (Project Loom)  
-- Código mais expressivo  
+Principais recursos estudados:
+
+* Melhorias de performance
+* Pattern Matching
+* Virtual Threads (Project Loom)
+* Código mais expressivo
+* Evolução contínua da linguagem
 
 ---
 
 ## 📖 Glossário
 
-- **Acoplamento** → dependência entre classes  
-- **Coesão** → responsabilidade única  
-- **Refatoração** → melhoria sem alterar comportamento  
-- **Design Pattern** → solução reutilizável  
+| Conceito       | Definição                                         |
+| -------------- | ------------------------------------------------- |
+| Acoplamento    | Dependência entre classes                         |
+| Coesão         | Responsabilidade única e bem definida             |
+| Refatoração    | Melhoria interna sem alterar comportamento        |
+| Design Pattern | Solução reutilizável para problemas recorrentes   |
+| OCP            | Aberto para extensão e fechado para modificação   |
+| DIP            | Dependência de abstrações e não de implementações |
 
 ---
 
 ## 🔁 Prompts Reutilizáveis
 
-- "Explique X com exemplos em Java"  
-- "Refatore esse código aplicando boas práticas"  
-- "Esse código segue SOLID?"  
-- "Qual Design Pattern resolve esse problema?"  
+```text
+Explique X com exemplos em Java
+```
+
+```text
+Refatore esse código aplicando boas práticas
+```
+
+```text
+Esse código segue SOLID?
+```
+
+```text
+Qual Design Pattern resolve esse problema?
+```
+
+```text
+Como aplicar Object Calisthenics neste código?
+```
+
+```text
+Como transformar esse código em uma arquitetura mais aderente ao Clean Architecture?
+```
 
 ---
 
@@ -360,13 +404,53 @@ src/
 
 ## 🛠️ Tecnologias
 
-- Java 25  
-- Programação Orientada a Objetos  
-- Design Patterns  
-- Clean Architecture
+* Java 25
+* Programação Orientada a Objetos
+* SOLID
+* Object Calisthenics
+* Design Patterns
+* Clean Architecture
+
+---
 
 ## 🔗 Como executar
 
 ```bash
-git clone https://github.com/flavioReisSouza/java-clean-architecture-playground
+git clone https://github.com/flavioReisSouza/java-clean-architecture-playground.git
 ```
+
+---
+
+## 🏆 Resultado do Projeto
+
+Este projeto foi desenvolvido como parte do desafio da DIO utilizando o NotebookLM como ferramenta de aprendizagem ativa.
+
+Durante o desenvolvimento foram estudados e consolidados conceitos fundamentais para aplicações backend Java modernas:
+
+* Clean Code
+* SOLID
+* Object Calisthenics
+* Design Patterns (Strategy e Factory)
+* Estruturas de Dados
+* Clean Architecture
+* Java 25
+
+Além do aprofundamento técnico, o projeto também permitiu praticar:
+
+* Curadoria de fontes técnicas
+* Engenharia de Prompts
+* Troubleshooting de respostas geradas por IA
+* Organização do conhecimento
+* Documentação técnica
+
+O resultado final é um material de consulta que poderá ser reutilizado futuramente em entrevistas, estudos e projetos profissionais.
+
+---
+
+## 👨‍💻 Autor
+
+**Flávio Reis Souza**
+
+Backend Java Developer | Estudante de Ciência da Computação | Entusiasta de Arquitetura de Software, Boas Práticas e Clean Code.
+
+🔗 GitHub: https://github.com/flavioReisSouza

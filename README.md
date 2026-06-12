@@ -2,6 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Java-25-orange)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
+![DIO](https://img.shields.io/badge/DIO-Project-blueviolet)
 
 > Hands-on Java project exploring Clean Code, SOLID principles, Object Calisthenics, Design Patterns (Strategy & Factory), Data Structures and Clean Architecture using modern Java (Java 25).
 
@@ -39,8 +40,8 @@ Este repositório foi desenvolvido com foco em aprendizagem ativa utilizando Int
 
 ### Sites e Documentação
 
-* 🌐 Refactoring Guru — https://refactoring.guru/
-* 🌐 Oracle Java Documentation — https://docs.oracle.com/en/java/
+- 🌐 [Refactoring Guru](https://refactoring.guru/)
+- 🌐 [Oracle Java Documentation](https://docs.oracle.com/en/java/)
 * 📄 Materiais e anotações da DIO
 
 ---
